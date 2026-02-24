@@ -1,0 +1,11 @@
+{
+  "testUser": {
+    "email": "testuser@example.com"
+  },
+  "oauthCredentials": {
+    "google": {
+      "clientId": "876136431795-j7rf72189q09c52jj67ponsbfb4qkop4.apps.googleusercontent.com",
+      "clientSecret": "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"
+    }
+  }
+}

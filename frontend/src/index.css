@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@layer base {
+  :root {
+    --background: 222 47% 8%;
+    --foreground: 210 40% 98%;
+    --card: 222 47% 11%;
+    --card-foreground: 210 40% 98%;
+    --primary: 186 100% 42%;
+    --primary-foreground: 222 47% 8%;
+    --secondary: 217 32% 17%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217 32% 17%;
+    --muted-foreground: 215 20% 65%;
+    --accent: 186 100% 42%;
+    --accent-foreground: 222 47% 8%;
+    --border: 217 32% 20%;
+    --input: 217 32% 17%;
+    --ring: 186 100% 42%;
+    --radius: 0.75rem;
+    --toolbar: 222 47% 10%;
+    --canvas: 222 47% 6%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Space Grotesk', sans-serif;
+  }
+}
+
+.bg-toolbar {
+  background-color: hsl(var(--toolbar));
+}
+
+.bg-canvas {
+  background-color: hsl(var(--canvas));
+}
